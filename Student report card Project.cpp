@@ -25,7 +25,7 @@ class student     //Class starts here.
 
 void student::calculate()     //Function definition for calculating student grade.
 {
-	per=(s_marks+ss_marks+m_marks+e_marks+h_marks)/5.0;     //For calculating the Percenatage.
+	per=(s_marks+ss_marks+m_marks+e_marks+h_marks)/5.0;     //For calculating the Percentage.
 	if(per>=90)
 		{
 		    grade='A';
